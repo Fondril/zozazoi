@@ -1,13 +1,24 @@
+@font-face {
+      font-family: "CursiveFont";
+      src: local("CursiveFont"),
+       url("./fonts/CursiveFont1/font.ttf") format("truetype");
+       font-weight: bold;
+     }
+
+@font-face {
+      font-family: "Architext";
+      src: local("Architext"),
+       url("./fonts/Architext/architext.regular.ttf") format("truetype");
+       font-weight: bold;
+     }
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
