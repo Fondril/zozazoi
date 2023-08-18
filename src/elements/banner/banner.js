@@ -4,7 +4,7 @@ import './banner.scss'
 const Banner = () =>{
       return(
             <div className="banner">
-                  <div className="bannerText">Srećan rodjendaaaan!!</div>
+                  <div className="bannerText">Srećan rođendaaaan!!</div>
             </div>
       )
 }

@@ -1,0 +1,51 @@
+.komentariWrapper{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: fit-content;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      font-family: Architext;
+      gap: 50px;
+      .komentarWrapper{
+            width: 40%;
+            height: fit-content;
+            min-height: 200px;
+            background-color: red($color: #000000);
+            border-radius: 20px;
+            box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, 0.781);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .komentator{
+                  display: flex;
+                  gap: 30px;
+                  height: 50px;
+                  justify-content: flex-start;
+                  align-items: center;
+                  width: calc(100% - 40px);
+                  padding-left: 40px;
+                  border-bottom: black 1px solid;
+                  .picture{
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 20px;
+                  }
+                  .name{
+                        font-size: 30px;
+                        padding-top: 5px;
+                  }
+            }
+
+            .komentar{
+                  font-size: 30px;
+                  padding-top: 10px;
+                  padding-bottom: 10px;
+                  padding-left: 10px;
+                  padding-right: 10px;
+            }
+      }
+}
