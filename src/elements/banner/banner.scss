@@ -1,0 +1,15 @@
+.banner{
+      width: 100%;
+      height: 300px;
+      background: url(../../assets/backgrounds/bannerBackground.jpg);
+      background-size: contain;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .bannerText{
+            color: rgb(243, 80, 107);
+            font-size: 100px;
+            
+            text-shadow: 3px 3px 6px rgb(250, 234, 236);
+      }
+}

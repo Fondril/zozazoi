@@ -2,9 +2,11 @@ import './App.css';
 import React from 'react';
 
 import LogInPage from '../src/pages/logInPage/logInPage'
-import MainPage from '../src/pages/mainPage/mainPage'
+import GalerijaPage from '../src/pages/galerijaPage/galerijaPage'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import KomentariPage from './pages/komentariPage/komentariPage';
+import VideoPage from './pages/videoPage/videoPage';
 
 const router = createBrowserRouter([
       {
@@ -12,8 +14,16 @@ const router = createBrowserRouter([
             element: <LogInPage />
       },
       {
-            path: '/main',
-            element: <MainPage />
+            path: '/ovoJeGalerija002DaNeDaGaGaKomplikovanURL',
+            element: <GalerijaPage />
+      },
+      {
+            path: '/ovoSuKomentariITakodjeKomplikovanURLJerNecemoPacove',
+            element: <KomentariPage />
+      },
+      {
+            path: '/stranicaZaVideoBogTeVideoOvdeCeBiti003GaGa',
+            element: <VideoPage />
       }
 ]
 )

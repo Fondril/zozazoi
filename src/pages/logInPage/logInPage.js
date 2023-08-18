@@ -13,7 +13,7 @@ const LogInPage = () =>{
       const handleLogInClick = () =>{
             if (userName === 'zozazoi' && pass === 'badbitch')
             {
-                  navigate("/main")
+                  navigate("/ovoJeGalerija002DaNeDaGaGaKomplikovanURL")
             }
             else {
                   setLogInPageState("fail")
