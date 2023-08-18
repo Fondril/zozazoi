@@ -33,3 +33,16 @@
       transform: scale(300%);
       transition:  all 0.5s;
 }
+
+@media screen and (max-width: 600px) {
+      .galerija{
+            .galerijaPhotoWrapper{
+                  grid-template-columns: max-content;
+                  column-gap: 0;
+                  width: 80%;
+            }
+      }
+      .photo{
+            height: 400px;
+      }
+    }

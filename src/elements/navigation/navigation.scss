@@ -30,3 +30,12 @@
       transition:  all 0.2s;
       color: red($color: #000000);
 }
+
+@media screen and (max-width: 600px) {
+      .navigation{
+            justify-content: center;
+            .navigationLinkWrapper{
+                  padding-left: 0px;
+            }
+      }
+    }
