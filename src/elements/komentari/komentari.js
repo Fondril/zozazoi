@@ -32,6 +32,7 @@ const Komentari = () =>{
 
                   {Cestitke.map((item) => komentarRender(item))}
 
+
             </div>
       )
 }
