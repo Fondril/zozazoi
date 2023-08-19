@@ -1,0 +1,44 @@
+.videoElement{
+    background: url(../../assets/backgrounds/videoBackground.avif);
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    padding-top: 50px;
+    width: 100%;
+    .videoWrapper{
+        display: flex;
+        width: 60%;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        .video{
+            width: 500px;
+            height: auto;
+        }
+    }
+}
+@media screen and (max-width: 600px) {
+    .videoElement{
+        background: url(../../assets/backgrounds/videoBackground.avif);
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: fit-content;
+        padding-top: 50px;
+        width: 100%;
+        .videoWrapper{
+            display: flex;
+            width: 90%;
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+            .video{
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}

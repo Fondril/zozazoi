@@ -7,8 +7,8 @@ const Navigation = () =>{
             <div className="navigation">
                   <div className="navigationLinkWrapper">
                         <Link className="navigationLink" to='/ovoJeGalerija002DaNeDaGaGaKomplikovanURL'>Galerija</Link>
-                        <Link className="navigationLink" to='/ovoSuKomentariITakodjeKomplikovanURLJerNecemoPacove'>Komentari</Link>
-                        <Link className="navigationLink" to='/stranicaZaVideoBogTeVideoOvdeCeBiti003GaGa '>Video</Link>
+                        <Link className="navigationLink" to='/ovoSuKomentariITakodjeKomplikovanURLJerNecemoPacove'>Cestitke</Link>
+                        <Link className="navigationLink" to='/stranicaZaVideoBogTeVideoOvdeCeBiti003GaGa'>Video</Link>
                   </div>
             </div>
       )

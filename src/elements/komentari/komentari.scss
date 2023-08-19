@@ -1,4 +1,6 @@
 .komentariWrapper{
+      background: url(../../assets/backgrounds/komentariBackground.avif);
+      background-size: contain;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -10,10 +12,10 @@
       font-family: Architext;
       gap: 50px;
       .komentarWrapper{
+            background-color: white;
             width: 40%;
             height: fit-content;
             min-height: 200px;
-            background-color: red($color: #000000);
             border-radius: 20px;
             box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, 0.781);
             display: flex;
@@ -41,11 +43,47 @@
             }
 
             .komentar{
-                  font-size: 30px;
+                  font-size: 35px;
                   padding-top: 10px;
                   padding-bottom: 10px;
                   padding-left: 10px;
                   padding-right: 10px;
             }
       }
+}
+
+.mickinaPoruka{
+      height: 150px;
+      width: 400px;
+      padding-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+      .komentariWrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: fit-content;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            font-family: Architext;
+            gap: 50px;
+            .komentarWrapper{
+                  width: 90%;
+                  height: fit-content;
+                  min-height: 200px;
+                  background-color: red($color: #000000);
+                  border-radius: 20px;
+                  box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, 0.781);
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+            }
+      .mickinaPoruka{
+            height: 150px;
+            width: auto;
+      }
+}
 }
